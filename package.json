@@ -1,0 +1,15 @@
+{
+"name":"post-parser",
+"verstion":"1.0.0",
+"description":"A parser that parses post requests",
+"main":"index.js",
+"directories":{
+"test":"test"
+},
+"dependencies":{},
+"scripts":{
+"test":"echo \"Error: no test specified\" && exit 1"
+},
+"author":"test",
+"license":"ISC"
+}
