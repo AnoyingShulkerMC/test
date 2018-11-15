@@ -9,6 +9,6 @@ r.on("end",function(){
 c(parse(body))
 })
 }catch(err){
-c(undefined,err)
+c({},err)
 }
 }
