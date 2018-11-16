@@ -12,7 +12,7 @@ In order to parse a post request use this code:
         parse(req,function(result,err){
           if (err) throw err;
           res.write(result)
-          res.end
+          res.end()
         })
       }
     }).listen(8080)
