@@ -1,3 +1,4 @@
+(function(){
 module.exports = function(r,c){
 try{
 const {parse} = require("querystring")
@@ -12,3 +13,4 @@ c(parse(body))
 c({},err)
 }
 }
+})
